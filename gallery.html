@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Carousel</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-MQ1SC0NNja4MJZ2GpTMLDAXcaAxRm7Kfjl8z2HiOKPzOf+ZSzEFnrl9lfMElxOKI" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+      <!-- بداية Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+          <!-- الشعار -->
+          <a class="navbar-brand" href="index.html">
+            <img src="./pic/WhatsApp Image 2024-12-04 at 5.36.34 PM.jpeg" alt="Logo" style="height: 40px;">
+          </a>
+        </div>
+      
+        <!-- زر التنقل للموبايل -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+       
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto d-flex justify-content-between w-100">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">HOME</a>
+            </li>
+         
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+<section class="Gallery d-flex justify-content-center align-items-center" style="height: 100vh; text-align: center; background-color: #f9f9f9;">
+  <h1 style="max-width: 60%; font-size: 1.5rem; line-height: 1.8; color: #333;">
+    Welcome to Our Gallery!<br>
+    On this page, we share a glimpse of our expertise in dentistry through real-life examples of cases we've worked on. From bright smiles to innovative solutions for various challenges, this gallery reflects our commitment to delivering the highest standards of quality and personalized care for every patient. See for yourself how we help our patients regain their confidence with their smiles!
+  </h1>
+</section>
+
+    <h1 class="text-center">Gallery</h1>
+   
+    <body>
+    
+    <section class="container-fluid p-0 gallery">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="row justify-content-center">
+                      <div class="col-6">
+                          <img src="./pic/gall.webp" class="d-block w-100" alt="...">
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="row justify-content-center">
+                      <div class="col-6">
+                          <img src="./pic/galle.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="row justify-content-center">
+                      <div class="col-6">
+                          <img src="./pic/galler.webp" class="d-block w-100" alt="...">
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">السابق</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">التالي</span>
+            </button>
+        </div>
+    </section>
+    
+    <footer class=" text-light  m-5">
+      <div class="container">
+          <div class="row">
+
+              <div class="col-md-4">
+
+                  <ul class="list-unstyled">
+                      <li><i class="bi bi-telephone"></i> 1800-121-3637</li>
+                      <li><i class="bi bi-telephone"></i> +91-7052-101-786</li>
+                      <li><i class="bi bi-envelope"></i> info@example.com</li>
+                      <li><i class="bi bi-envelope"></i> help@example.com</li>
+                      <li><i class="bi bi-geo-alt "></i> Nablus rafidia</li>
+                  </ul>
+              </div>
+
+              <div class="col-md-4">
+                  <h5 class="mb-3">Quick Links</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="#" class="text-light text-decoration-none">Home</a></li>
+                   <li> <a class="nav-link" href="#Services">Services</a></li>  
+
+                      <li><a href="#" class="text-light text-decoration-none">Contact</a></li>
+                  </ul>
+              </div>
+
+              <div class="col-md-4">
+                  <h5 class="mb-3 text-center">Our Location</h5>
+                  <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54065.71664892514!2d35.223018658203125!3d32.224454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ce244a26e617b%3A0xf7b2b896c2c2d8d8!2sNablus!5e0!3m2!1sen!2s!4v1639927206182!5m2!1sen!2s"
+                      width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy">
+                  </iframe>
+              </div>
+          </div>
+          <div class="text-center mt-3">
+              <p class="mb-0">&copy; 2024 Dr.Amr Elias All rights reserved</p>
+          </div>
+      </div>
+  </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
